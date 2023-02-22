@@ -27,5 +27,8 @@
     <file src="C:\code\SoLoudInterop\dll\soloud_x64.dll" target="content\dll\soloud_x64.dll" />
     <file src="C:\code\SoLoudInterop\dll\soloud_x64.dll" target="contentFiles\any\net6.0\dll\soloud_x64.dll" />
     <file src="C:\code\SoLoudInterop\dll\soloud_x64.dll" target="contentFiles\any\net6.0-windows7.0\dll\soloud_x64.dll" />
+    <file src="C:\code\SoLoudInterop\dll\soloud_x64.dll" target="\soloud_x64.dll" />
+    <file src="C:\code\SoLoudInterop\README.md" target="\README.md" />
+    <file src="C:\code\SoLoudInterop\LICENSE" target="\LICENSE" />
   </files>
 </package>

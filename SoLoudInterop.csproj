@@ -24,4 +24,10 @@
     <Content Include="dll/soloud_x64.dll" />
   </ItemGroup>
   
+  <ItemGroup>
+    <None Include="dll/soloud_x64.dll" Pack="true" PackagePath="\" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  
 </Project>
