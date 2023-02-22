@@ -21,13 +21,13 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <Content Include="dll/soloud_x64.dll" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <None Include="lib/soloud_x64.dll" Pack="true" PackagePath="\" />
+    <Content Include="lib/soloud_x64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Pack>true</Pack>
+      <PackagePath>lib\net6.0\win-x64\native</PackagePath>
+    </Content>
     <None Include="README.md" Pack="true" PackagePath="\" />
-    <None Include="LICENSE" Pack="true" PackagePath="\" />
+    <None Include="LICENSE" Pack="true" CopyToOutputDirectory="Always" PackagePath="\" />
   </ItemGroup>
   
 </Project>
