@@ -15,7 +15,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <RepositoryUrl></RepositoryUrl>
+    <RepositoryUrl>https://github.com/tilkinsc/SoloudInterop</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
   
