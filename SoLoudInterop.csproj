@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>net6.0;net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>SoLoudInterop</PackageId>
+    <Version>1.0</Version>
+    <Authors>Cody Tilkins</Authors>
+    <Copyright>Copyright © Cody Tilkins 2023</Copyright>
+    <Title>SoLoudInterop</Title>
+    <Product>SoLoudInterop</Product>
+    <PackageTags>C# SoLoud Interop</PackageTags>
+    <Description>SoLoudInterop provides bindings to use SoLoud in C#</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl></RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Content Include="dll/soloud_x64.dll" />
+  </ItemGroup>
+  
+</Project>
